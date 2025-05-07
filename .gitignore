@@ -1,0 +1,33 @@
+# Ігноруємо віртуальні середовища
+venv/
+.env/
+.venv/
+
+# Ігноруємо кеші Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ігноруємо кеш pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ігноруємо файли IDE/редакторів
+.idea/
+.vscode/
+
+# Ігноруємо файли системи (наприклад, OS X, Windows)
+.DS_Store
+Thumbs.db
+
+# Ігноруємо інші специфічні файли:
+*.log
+*.bak
+*.swp
+
+# Ігноруємо файли конфігурації тестових фреймворків (якщо є)
+coverage.xml
+nosetests.xml
+*.cover
+*.hypothesis/
